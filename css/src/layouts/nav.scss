@@ -1,0 +1,66 @@
+/**
+ * $NAV STYLES
+ * ==========================================================================
+ */
+
+.nav-box{
+ 	width: 100%;
+
+ 	a, a:link, a:visited{
+ 		color: $copy-dark;
+ 		font-weight: 700;
+ 		font-size: 18px;
+    	letter-spacing: 0.04em;
+    	display: inline-block;
+    	padding: 5px 2px 40px 2px;
+ 	}
+
+ 	a:hover{
+ 		color: $ssi-blue;
+ 		border-bottom: 4px $ssi-blue solid;
+ 	}
+
+ 	.upper-nav{
+ 		background-color: $ssi-blue;
+ 		height: 55px;
+ 	}
+
+ 	.lower-nav{
+ 		background-color: white;
+ 		height: 85px;
+
+ 		.inner-low-nav{
+ 			width: 80%;
+ 			margin: auto;
+ 			max-height: 86px;
+            min-width: 1024px;
+ 		}
+
+ 		.nav-logo{
+	 		position: relative;
+	 		z-index: 5;
+	    	display: inline-block;
+	    	top: -57px;
+		 }
+
+ 		.main-nav-block{
+ 			    display: inline-block;
+    			vertical-align: top;
+    			float: right;
+    			position: relative;
+                margin-right: 5px;
+    			height: 80px;
+ 			
+ 			ul,li{
+ 				list-style-type: none;
+ 			}	
+ 			ul{}
+ 			li{
+ 				padding: 0 10px 0px 10px;
+    			position: relative;
+    			display: inline;
+ 			}	
+ 		}
+ 	}
+ }
+ 
