@@ -1715,66 +1715,80 @@ td {
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #333333;
 }
 
-.clear-fix {
-  clear: both;
-}
-
-.container {
-  width: 100%;
+.al-steel-container {
+  border: thin gray solid;
+  width: 75%;
+  margin: auto;
+  text-align: center;
   max-width: 100%;
   padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #333333;
 }
-
-.nav-box {
+.al-steel-container .logo-lockup {
+  width: 400px;
+  margin: auto;
+}
+.al-steel-container .logo-lockup img {
   width: 100%;
 }
-.nav-box a, .nav-box a:link, .nav-box a:visited {
-  color: #333333;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.04em;
-  display: inline-block;
-  padding: 5px 2px 40px 2px;
-}
-.nav-box a:hover {
-  color: #1896d5;
-  border-bottom: 4px #1896d5 solid;
-}
-.nav-box .upper-nav {
-  background-color: #1896d5;
-  height: 55px;
-}
-.nav-box .lower-nav {
-  background-color: white;
-  height: 85px;
-}
-.nav-box .lower-nav .inner-low-nav {
-  width: 80%;
+.al-steel-container .building-container {
+  width: 90%;
   margin: auto;
-  max-height: 86px;
+  margin-top: 35px;
 }
-.nav-box .lower-nav .nav-logo {
+.al-steel-container .building-container img {
+  width: 100%;
+}
+.al-steel-container .building-container .shed-box {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 190px;
+  text-align: center;
+  max-width: 790px;
+  margin-left: -29%;
+}
+.al-steel-container .building-container .forest-bg {
   position: relative;
-  z-index: 5;
   display: inline-block;
-  top: -57px;
+  margin: auto;
+  z-index: 10;
 }
-.nav-box .lower-nav .main-nav-block {
+.al-steel-container .building-container .float-item {
+  position: absolute;
+  margin: auto;
   display: inline-block;
-  vertical-align: top;
-  float: right;
-  position: relative;
-  margin-right: 5%;
 }
-.nav-box .lower-nav .main-nav-block ul, .nav-box .lower-nav .main-nav-block li {
-  list-style-type: none;
+.al-steel-container .building-container .trim {
+  z-index: 50;
+  margin-left: -18px;
+  width: 60%;
 }
-.nav-box .lower-nav .main-nav-block li {
-  padding: 0 10px 0px 10px;
-  position: relative;
-  display: inline;
+.al-steel-container .building-container .texture {
+  margin-left: -3px;
+  z-index: 40;
+  width: 57%;
+  top: 4px;
+}
+.al-steel-container .building-container .siding {
+  top: 10px;
+  margin-left: -15px;
+  z-index: 10;
+  max-width: 468px;
+  width: 59%;
+}
+.al-steel-container .building-container .roof {
+  margin-left: 65px;
+  z-index: 10;
+  width: 48%;
+  top: 3px;
+}
+.al-steel-container .clear-fix {
+  clear: both;
 }
 
 /**
