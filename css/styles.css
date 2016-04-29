@@ -1786,6 +1786,12 @@ body {
   width: 48%;
   top: 3px;
 }
+.al-steel-container .building-container .shadow {
+  margin-left: -15px;
+  z-index: 60;
+  width: 60%;
+  top: 9px;
+}
 .al-steel-container .clear-fix {
   clear: both;
 }
