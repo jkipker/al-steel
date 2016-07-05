@@ -150,6 +150,97 @@ body{
       }
     }
 
+    .color-options{
+      img{ width: 100%; }
+    }
+
+
+
+  //*** choose colors styles ***//
+
+.color-block{
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  vertical-align: top;
+
+  .color-choice{
+    //background-color: black;
+    border: 1px #999 solid;
+    min-width: 85px;
+    min-height: 70px;
+    cursor: pointer;
+  }
+
+  .color-title{
+    color: white;
+  }
+
+  .ash-gray{
+    background-color: #474b44;
+  }
+  .barn-red{
+    background-color: #8c4435;
+  }
+  .black{
+    background-color: #000000;
+  }
+  .burgundy{
+    background-color: #503439;
+  }
+  .burnished-slate{
+    background-color: #353d2e;
+  }
+  .colony-green{
+    background-color: #4f6854;
+  }
+  .charcoal-gray{
+    background-color: #474b44;
+  } 
+  .copper-metallic{
+    background-color: #8f662a;
+  }
+  .crimson-red{
+    background-color: #8f101a;
+  }
+  .desert-sand{
+    background-color: #807d63;
+  }
+  .fern-green{
+    background-color: #22382f;
+  }
+  .forest-green{
+    background-color: #1d4430;
+  }
+  .gallery-blue{
+    background-color: #003155;
+  }
+  .gold{
+    background-color: #ae9962;
+  }
+  .hawaiian-blue{
+    background-color: #2f5a6c;
+  }
+  .light-stone{
+    background-color: #afa588;
+  }
+  .saddle-tan{
+    background-color: #9c8564;
+  }
+  .galvalume{
+    background-color: #c3c7c6;
+  }
+  .white{
+    background-color: #ffffff;
+  }
+  .koko{
+    background-color: #46382b;
+  }
+}
+
+  
+
+
 
     //*** Check Boxes ***//
 
