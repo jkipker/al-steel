@@ -1859,64 +1859,64 @@ body {
 .options .color-block .color-title {
   color: white;
 }
-.options .color-block .ash-gray {
+.options .color-block #ash-gray {
   background-color: #474b44;
 }
-.options .color-block .barn-red {
+.options .color-block #barn-red {
   background-color: #8c4435;
 }
-.options .color-block .black {
+.options .color-block #black {
   background-color: #000000;
 }
-.options .color-block .burgundy {
+.options .color-block #burgundy {
   background-color: #503439;
 }
-.options .color-block .burnished-slate {
+.options .color-block #burnished-slate {
   background-color: #353d2e;
 }
-.options .color-block .colony-green {
+.options .color-block #colony-green {
   background-color: #4f6854;
 }
-.options .color-block .charcoal-gray {
+.options .color-block #charcoal-gray {
   background-color: #474b44;
 }
-.options .color-block .copper-metallic {
+.options .color-block #copper {
   background-color: #8f662a;
 }
-.options .color-block .crimson-red {
+.options .color-block #crimson-red {
   background-color: #8f101a;
 }
-.options .color-block .desert-sand {
+.options .color-block #desert-sand {
   background-color: #807d63;
 }
-.options .color-block .fern-green {
+.options .color-block #fern-green {
   background-color: #22382f;
 }
-.options .color-block .forest-green {
+.options .color-block #forest-green {
   background-color: #1d4430;
 }
-.options .color-block .gallery-blue {
+.options .color-block #gallery-blue {
   background-color: #003155;
 }
-.options .color-block .gold {
+.options .color-block #gold {
   background-color: #ae9962;
 }
-.options .color-block .hawaiian-blue {
+.options .color-block #hawaiian-blue {
   background-color: #2f5a6c;
 }
-.options .color-block .light-stone {
+.options .color-block #light-stone {
   background-color: #afa588;
 }
-.options .color-block .saddle-tan {
+.options .color-block #saddle-tan {
   background-color: #9c8564;
 }
-.options .color-block .galvalume {
+.options .color-block #galvalume {
   background-color: #c3c7c6;
 }
-.options .color-block .white {
+.options .color-block #white {
   background-color: #ffffff;
 }
-.options .color-block .koko {
+.options .color-block #koko {
   background-color: #46382b;
 }
 .options [type="checkbox"]:not(:checked),
