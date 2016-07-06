@@ -1803,6 +1803,8 @@ body {
   margin: auto;
   color: white;
   margin-bottom: 30px;
+  z-index: 99;
+  margin-top: 30px;
   /* checkbox aspect */
   /* checked mark aspect */
   /* checked mark aspect changes */
@@ -1831,18 +1833,41 @@ body {
   margin-top: 15px;
   margin-left: -27px;
 }
-.options .split50 {
+.options .split50, .options .split30 {
   display: inline-block;
-  width: 48%;
+  width: 64%;
   border: 1px #999 solid;
   text-align: center;
   vertical-align: top;
 }
-.options .split50 .split50 {
+.options .split50 .split50, .options .split30 .split50 {
   border: none;
+  width: 48%;
+}
+.options .split30 {
+  width: 34%;
 }
 .options .color-options img {
   width: 100%;
+}
+.options .color-options h2 {
+  margin-bottom: -20px;
+}
+.options .color-tab {
+  background-color: rgba(102, 102, 102, 0.65);
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.options .color-tab:hover {
+  color: #09ad7e;
+}
+.options .color-tabs {
+  top: -58px;
+}
+.options .color-tabs .selected {
+  color: #09ad7e;
 }
 .options .color-block {
   display: inline-block;
@@ -1852,8 +1877,8 @@ body {
 }
 .options .color-block .color-choice {
   border: 1px #999 solid;
-  min-width: 85px;
-  min-height: 70px;
+  min-width: 80px;
+  min-height: 65px;
   cursor: pointer;
 }
 .options .color-block .color-title {
@@ -1929,6 +1954,8 @@ body {
   position: relative;
   padding-left: 25px;
   cursor: pointer;
+  font-size: 16px;
+  text-align: left;
 }
 .options [type="checkbox"]:not(:checked) + label:before,
 .options [type="checkbox"]:checked + label:before {

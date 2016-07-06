@@ -18,8 +18,8 @@
 			<div class="building-container">
 				<div class="forest-bg"><img src="img/trees_background.png"/></div>
 				<div class="shed-box">
-					<div class="float-item roof"><img src="img/roof/default-gray.png"/></div>
-					<div class="float-item trim"><img src="img/trim/default-black.png"/></div>
+					<div class="float-item roof"><img id="roof" src="img/roof/default-gray.png"/></div>
+					<div class="float-item trim"><img id="trim" src="img/trim/default-black.png"/></div>
 					<div class="float-item texture"><img src="img/siding-texture.png"/></div>
 					<div class="float-item siding"><img id="siding" src="img/siding/default-gray.png"/></div>
 					<div class="float-item shadow"><img src="img/shadow.png"/></div>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="options">
 
-			<div class="split50 doors-windows" style="margin-right: 10px;">
+			<div class="split30 doors-windows" style="margin-right: 10px;">
 				<h2>Add Doors and Windows</h2>
 
 				<div class="split50">
@@ -57,12 +57,12 @@
 					    <label for="walkin-side-left">Left</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-side-left" />
-					    <label for="walkin-side-left">Center</label>
+					    <input type="checkbox" id="walkin-side-center" />
+					    <label for="walkin-side-center">Center</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-side-left" />
-					    <label for="walkin-side-left">Right</label>
+					    <input type="checkbox" id="walkin-side-right" />
+					    <label for="walkin-side-right">Right</label>
 					  </p>
 					</form>
 
@@ -84,32 +84,32 @@
 					<span>End Wall</span>
 					<form action="#">
 					  <p>
-					    <input type="checkbox" id="walkin-end-left" />
-					    <label for="walkin-end-left">Left</label>
+					    <input type="checkbox" id="windows-end-left" />
+					    <label for="windows-end-left">Left</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-end-center" />
-					    <label for="walkin-end-center">Center</label>
+					    <input type="checkbox" id="windows-end-center" />
+					    <label for="windows-end-center">Center</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-end-right" />
-					    <label for="walkin-end-right">Right</label>
+					    <input type="checkbox" id="windows-end-right" />
+					    <label for="windows-end-right">Right</label>
 					  </p>
 					</form>
 
 					<span>Side Wall</span>
 					<form action="#">
 					  <p>
-					    <input type="checkbox" id="walkin-side-left" />
-					    <label for="walkin-side-left">Left</label>
+					    <input type="checkbox" id="windows-side-left" />
+					    <label for="windows-side-left">Left</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-side-left" />
-					    <label for="walkin-side-left">Center</label>
+					    <input type="checkbox" id="windows-side-center" />
+					    <label for="windows-side-center">Center</label>
 					  </p>
 					  <p>
-					    <input type="checkbox" id="walkin-side-left" />
-					    <label for="walkin-side-left">Right</label>
+					    <input type="checkbox" id="windows-side-right" />
+					    <label for="windows-side-right">Right</label>
 					  </p>
 					</form>
 				</div>
@@ -118,9 +118,11 @@
 			<div class="split50 color-options">
 				<h2>Choose Colors</h2>
 
-				<div id="siding-tab" class="color-tab">Siding</div>
-				<div id="siding-tab" class="color-tab">Roof</div>
-				<div id="siding-tab" class="color-tab">Trim</div>
+				<div class="color-tabs">
+					<div id="siding-tab" class="siding-tab color-tab selected">Siding</div>
+					<div id="roof-tab" class="roof-tab color-tab">Roof</div>
+					<div id="trim-tab" class="trim-tab color-tab">Trim</div>
+				</div>
 				
 				<div class="color-block">
 					<div class="color-choice" id="ash-gray"></div>
