@@ -4,7 +4,6 @@ $(document).ready(function(){
 	var colorToChange = "siding";
 
 
-
 	//** swap metal siding **//
 	$( ".color-choice" ).click(function() {
   		 var myColor = event.target.id;
@@ -15,13 +14,10 @@ $(document).ready(function(){
 
   		 if(colorToChange == "siding"){
   		 	$('#siding').attr("src", sidingURL+myColor+'.png');
-  		 	console.log('sidingURL = '+sidingURL+' '+myColor);
   		 } else if(colorToChange == "roof"){
   		 	$('#roof').attr("src", roofURL+myColor+'.png');
-  		 	console.log('roofURL = '+roofURL+' '+myColor);
   		 } else if(colorToChange == "trim"){
   		 	$('#trim').attr("src", trimURL+myColor+'.png');
-  		 	console.log('trimURL = '+trimURL+' '+myColor);
   		 }
 	});
 
@@ -46,5 +42,122 @@ $(document).ready(function(){
 
 		colorToChange = "trim";
 	});
+
+
+
+	//doors / windows functions
+
+	//END WALL - DOORS
+	$("#walkin-end-left").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-end-left img').attr("src", 'img/doors/end-left.png');
+	    	$('.walkin-end-left').css("display", "inline-block");       
+		} else{ 
+			$('.walkin-end-left').hide();
+		}
+	});
+	$("#walkin-end-center").change(function() {
+	    if(this.checked) {
+	        $('.walkin-end-center img').attr("src", 'img/doors/end-center.png');
+	    	$('.walkin-end-center').css("display", "inline-block");
+		} else{ 
+			$('.walkin-end-center').hide();
+		}
+	});
+	$("#walkin-end-right").change(function() {
+	    if(this.checked) {
+	        $('.walkin-end-right img').attr("src", 'img/doors/end-right.png');
+	    	$('.walkin-end-right').css("display", "inline-block");
+		} else{ 
+			$('.walkin-end-right').hide();
+		}
+	});
+
+	//SIDE WALL - DOORS
+	$("#walkin-side-left").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-side-left img').attr("src", 'img/doors/side-left.png');
+	    	$('.walkin-side-left').css("display", "inline-block");	       
+		} else{ 
+			$('.walkin-side-left').hide();
+		}
+	});
+	$("#walkin-side-center").change(function() {
+	    if(this.checked) {
+	        $('.walkin-side-center img').attr("src", 'img/doors/side-center.png');
+	    	$('.walkin-side-center').css("display", "inline-block");
+		} else{ 
+			$('.walkin-side-center').hide();
+		}
+	});
+	$("#walkin-side-right").change(function() {
+	    if(this.checked) {
+	        $('.walkin-side-right img').attr("src", 'img/doors/side-right.png');
+	    	$('.walkin-side-right').css("display", "inline-block");
+		} else{ 
+			$('.walkin-side-right').hide();
+		}
+	});
+
+
+	//END WALL - WINDOWS
+	$("#windows-end-left").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-end-left img').attr("src", 'img/windows/end-left.png');
+	    	$('.walkin-end-left').css("display", "inline-block");       
+		} else{ 
+			$('.walkin-end-left').hide();
+		}
+	});
+	$("#windows-end-center").change(function() {
+	    if(this.checked) {
+	        $('.walkin-end-center img').attr("src", 'img/windows/end-center.png');
+	    	$('.walkin-end-center').css("display", "inline-block");
+		} else{ 
+			$('.walkin-end-center').hide();
+		}
+	});
+	$("#windows-end-right").change(function() {
+	    if(this.checked) {
+	        $('.walkin-end-right img').attr("src", 'img/windows/end-right.png');
+	    	$('.walkin-end-right').css("display", "inline-block");
+		} else{ 
+			$('.walkin-end-right').hide();
+		}
+	});
+
+	//SIDE WALL - WINDOWS
+	$("#windows-side-left").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-side-left img').attr("src", 'img/windows/side-left.png');
+	    	$('.walkin-side-left').css("display", "inline-block");	       
+		} else{ 
+			$('.walkin-side-left').hide();
+		}
+	});
+	$("#windows-side-center").change(function() {
+	    if(this.checked) {
+	        $('.walkin-side-center img').attr("src", 'img/windows/side-center.png');
+	    	$('.walkin-side-center').css("display", "inline-block");
+		} else{ 
+			$('.walkin-side-center').hide();
+		}
+	});
+	$("#windows-side-right").change(function() {
+	    if(this.checked) {
+	        $('.walkin-side-right img').attr("src", 'img/windows/side-right.png');
+	    	$('.walkin-side-right').css("display", "inline-block");
+		} else{ 
+			$('.walkin-side-right').hide();
+		}
+	});
+
+
+
+
+	// $("#walkin-end-left").click(function() {
+	// 	console.log('test');
+
+	// });
 
 });

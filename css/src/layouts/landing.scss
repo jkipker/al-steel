@@ -79,8 +79,8 @@ body{
       .texture{
         margin-left: -3px;
         z-index: 40;
-        width: 57%;
-        top: 4px;
+        width: 58%;
+        top: 2px;
       }
       .siding{
         top: 10px;
@@ -101,6 +101,53 @@ body{
         width: 60%;
         top: 9px;
       }
+
+      //doors & windows
+      .walkin-end-left{
+        z-index: 80;
+        margin-left: -4px;
+        top: 53px;
+      }
+
+      .walkin-end-center{
+        z-index: 80;
+        margin-left: 60px;
+        top: 61px;
+      }
+
+      .walkin-end-right{
+        z-index: 80;
+        margin-left: 135px;
+        top: 69px;
+      }
+
+
+      .walkin-side-left{
+        z-index: 80;
+        margin-left: 2px;
+        top: 48px;
+      }
+
+      .walkin-side-center{
+        z-index: 80;
+        margin-left: 95px;
+        top: 37px;
+      }
+
+      .walkin-side-right{
+        z-index: 80;
+        margin-left: 167px;
+        top: 26px;
+      }
+    }
+
+    .end-wall{
+      top: -213px;
+      left: -220px;
+    }
+
+    .side-wall{
+      top: -198px;
     }
 
 
