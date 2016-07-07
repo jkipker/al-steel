@@ -1706,13 +1706,6 @@ td {
  * ==========================================================================
  * This is a placeholder and example for a view.
  */
-* {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-}
-
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #191919;
@@ -1733,16 +1726,16 @@ body {
   min-width: 845px;
 }
 .al-steel-container .logo-lockup {
-  width: 400px;
+  width: 350px;
   margin: auto;
 }
 .al-steel-container .logo-lockup img {
   width: 100%;
 }
 .al-steel-container .building-container {
-  width: 90%;
+  width: 761px;
   margin: auto;
-  margin-top: 35px;
+  margin-top: 0px;
 }
 .al-steel-container .building-container .shed-box {
   width: 100%;
@@ -1824,6 +1817,14 @@ body {
   margin-left: 167px;
   top: 26px;
 }
+.al-steel-container .building-container .roll-up-end {
+  margin-left: 38px;
+  top: 42px;
+}
+.al-steel-container .building-container .roll-up-side {
+  top: 20px;
+  margin-left: 66px;
+}
 .al-steel-container .end-wall {
   top: -213px;
   left: -220px;
@@ -1841,7 +1842,7 @@ body {
   color: white;
   margin-bottom: 30px;
   z-index: 99;
-  margin-top: 30px;
+  margin-top: 40px;
   /* checkbox aspect */
   /* checked mark aspect */
   /* checked mark aspect changes */
@@ -1853,12 +1854,16 @@ body {
 .options h2 {
   color: #fff;
   font-size: 20px;
+  top: -45px;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.01em;
 }
 .options h3 {
   color: white;
   font-size: 18px;
   margin-bottom: 8px;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .options p {
   margin-bottom: 5px;
@@ -1872,17 +1877,24 @@ body {
 }
 .options .split50, .options .split30 {
   display: inline-block;
-  width: 64%;
+  width: 56%;
   border: 1px #999 solid;
   text-align: center;
   vertical-align: top;
+  height: 500px;
 }
 .options .split50 .split50, .options .split30 .split50 {
   border: none;
   width: 48%;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  padding-left: 5px;
 }
 .options .split30 {
-  width: 34%;
+  width: 42%;
+}
+.options .doors-windows {
+  margin-right: 5px;
 }
 .options .color-options img {
   width: 100%;
@@ -1896,15 +1908,20 @@ body {
   padding: 5px 10px;
   font-size: 20px;
   cursor: pointer;
+  border-radius: 5px;
+  margin: 3px;
 }
 .options .color-tab:hover {
   color: #09ad7e;
 }
 .options .color-tabs {
-  top: -58px;
+  top: -8px;
 }
 .options .color-tabs .selected {
   color: #09ad7e;
+}
+.options .disclaimer {
+  font-size: 14px;
 }
 .options .color-block {
   display: inline-block;
@@ -1915,11 +1932,12 @@ body {
 .options .color-block .color-choice {
   border: 1px #999 solid;
   min-width: 80px;
-  min-height: 65px;
+  min-height: 55px;
   cursor: pointer;
 }
 .options .color-block .color-title {
   color: white;
+  font-size: 14px;
 }
 .options .color-block #ash-gray {
   background-color: #474b44;

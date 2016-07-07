@@ -153,11 +153,26 @@ $(document).ready(function(){
 	});
 
 
+	//ROLL UP DOORS
+	$("#rollup-end").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-end-center img').attr("src", 'img/roll-up-end.png');
+	    	$('.walkin-end-center').css("display", "inline-block");	       
+	    	$('.walkin-end-center').addClass('roll-up-end');
+		} else{ 
+			$('.walkin-end-center').removeClass('roll-up-end');
+			$('.walkin-end-center').hide();
+		}
+	});
 
-
-	// $("#walkin-end-left").click(function() {
-	// 	console.log('test');
-
-	// });
-
+	$("#rollup-side").change(function() {
+	    if(this.checked) {
+	    	$('.walkin-side-center img').attr("src", 'img/roll-up-side.png');
+	    	$('.walkin-side-center').css("display", "inline-block");	       
+	    	$('.walkin-side-center').addClass('roll-up-side');
+		} else{ 
+			$('.walkin-side-center').removeClass('roll-up-side');
+			$('.walkin-side-center').hide();
+		}
+	});
 });
