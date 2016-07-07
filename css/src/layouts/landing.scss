@@ -165,6 +165,14 @@ body{
     z-index: 99;
     margin-top: 40px;
 
+
+    @include media-query(palm){
+      width: 100%;
+      text-align: center;
+    }
+
+
+
     h2{
       color: #fff;
       font-size: 20px;
@@ -172,6 +180,10 @@ body{
       text-transform: uppercase;
       font-size: 22px;
       letter-spacing: 0.01em;
+
+       @include media-query(palm){
+        font-size: 28px;
+      }
     }
 
     h3{
@@ -179,11 +191,19 @@ body{
       font-size: 18px;
       margin-bottom: 8px;
       margin-top: 0px;
+
+      @include media-query(palm){
+        font-size: 30px;
+      }
     }
 
     p{ 
       margin-bottom: 5px; 
       font-size: 14px;
+
+      @include media-query(palm){
+        margin-bottom: 3px;
+      }
     }
 
     span{
@@ -191,6 +211,10 @@ body{
       display: block;
       margin-top: 15px;
       margin-left: -27px;
+
+      @include media-query(palm){
+        font-size: 30px;
+      }
     }
 
     .split50, .split30{
@@ -201,26 +225,48 @@ body{
       vertical-align: top;
       height: 500px;
 
+      @include media-query(palm){
+        width: 75%;
+      }
+
       .split50{
         border: none;
         width: 48%;
         margin-top: -20px;
         padding-bottom: 10px;
         padding-left: 5px;
+
+        @include media-query(palm){
+            margin-top: -34px;
+          }
       }
     }
 
     .split30{
       width: 42%;
+
+      @include media-query(palm){
+        width: 75%;
+      }
     }
 
     .doors-windows{
       margin-right: 5px;
       min-width: 335px;
+
+     @include media-query(palm){
+        margin-bottom: 60px;
+        height: 780px;
+     }
     }
 
     .color-options{
       min-width: 455px;
+
+     @include media-query(palm){      
+        height: 1200px;
+      }
+
       img{ width: 100%; }
 
       h2{
@@ -236,6 +282,10 @@ body{
       cursor: pointer;
       border-radius: 5px;
       margin: 3px;
+
+      @include media-query(palm){
+      font-size: 28px;
+    }
     }
 
     .color-tab:hover{
@@ -262,16 +312,28 @@ body{
   width: 100px;
   vertical-align: top;
 
+  @include media-query(palm){
+    width: 180px;
+  }
+
   .color-choice{
     border: 1px #999 solid;
     min-width: 80px;
     min-height: 55px;
     cursor: pointer;
+
+    @include media-query(palm){
+      min-height: 65px;
+    }
   }
 
   .color-title{
     color: white;
     font-size: 14px;
+
+    @include media-query(palm){
+      font-size: 24px;
+    }
   }
 
   #ash-gray{
@@ -351,6 +413,15 @@ body{
       cursor: pointer;
       font-size: 16px;
       text-align: left;
+
+      @include media-query(palm){
+        position: relative;
+        padding-left: 45px;
+        cursor: pointer;
+        font-size: 38px;
+        text-align: left;
+      }
+
     }
 
     /* checkbox aspect */
@@ -363,7 +434,13 @@ body{
       border: 1px solid #aaa;
       background: #f8f8f8;
       border-radius: 3px;
-      box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+      box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+
+      @include media-query(palm){
+        width: 40px;
+        height: 40px;
+        border: 2px solid #aaa;
+      }
     }
     /* checked mark aspect */
     [type="checkbox"]:not(:checked) + label:after,
@@ -375,6 +452,10 @@ body{
       line-height: 0.8;
       color: #09ad7e;
       transition: all .2s;
+
+      @include media-query(palm){
+        font-size: 38px;
+      }
     }
     /* checked mark aspect changes */
     [type="checkbox"]:not(:checked) + label:after {
@@ -433,6 +514,10 @@ body{
     form {
       width: 80px;
       margin: 0 auto;
+
+      @include media-query(palm){
+        width: 140px;
+      }
     }
     .txtcenter {
       margin-top: 4em;
