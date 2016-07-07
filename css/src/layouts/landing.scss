@@ -216,9 +216,11 @@ body{
 
     .doors-windows{
       margin-right: 5px;
+      min-width: 335px;
     }
 
     .color-options{
+      min-width: 455px;
       img{ width: 100%; }
 
       h2{
@@ -417,6 +419,7 @@ body{
     body {
       font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
       color: #777;
+      min-width: 1080px;
     }
     h1, h2 {
       margin-bottom: 5px;
