@@ -1714,6 +1714,41 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    zoom: 40% !important;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  body div, body p, body h1, body h2, body h3, body form, body label, body .options span {
+    font-size: 100.1% !important;
+  }
+}
 
 .al-steel-container {
   width: 75%;
@@ -1724,6 +1759,12 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   max-width: 845px;
   min-width: 845px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .al-steel-container {
+    margin-left: -2%;
+  }
 }
 .al-steel-container .logo-lockup {
   width: 350px;
@@ -1870,6 +1911,31 @@ body {
     font-size: 28px;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .options h2 {
+    margin-top: -15px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .options h2 {
+    margin-top: -15px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .options h2 {
+    margin-top: -15px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .options h2 {
+    margin-top: -15px !important;
+  }
+}
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) {
+  .options h2 {
+    margin-top: -15px !important;
+  }
+}
 .options h3 {
   color: white;
   font-size: 18px;
@@ -1944,12 +2010,52 @@ body {
     height: 780px;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .options .doors-windows {
+    height: 1050px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .options .doors-windows {
+    height: 1050px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .options .doors-windows {
+    height: 1050px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .options .doors-windows {
+    height: 1050px !important;
+  }
+}
 .options .color-options {
   min-width: 455px;
 }
 @media only screen and (max-width: 768px) {
   .options .color-options {
     height: 1200px;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-options {
+    height: 1200px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-options {
+    height: 1200px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-options {
+    height: 1200px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-options {
+    height: 1200px !important;
   }
 }
 .options .color-options img {
@@ -2013,6 +2119,26 @@ body {
 @media only screen and (max-width: 768px) {
   .options .color-block .color-title {
     font-size: 24px;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-block .color-title {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-block .color-title {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-block .color-title {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .options .color-block .color-title {
+    font-size: 14px !important;
   }
 }
 .options .color-block #ash-gray {
@@ -2136,6 +2262,38 @@ body {
     font-size: 38px;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .options [type="checkbox"]:not(:checked) + label:after,
+  .options [type="checkbox"]:checked + label:after {
+    font-size: 26px !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .options [type="checkbox"]:not(:checked) + label:after,
+  .options [type="checkbox"]:checked + label:after {
+    font-size: 26px !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .options [type="checkbox"]:not(:checked) + label:after,
+  .options [type="checkbox"]:checked + label:after {
+    font-size: 26px !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .options [type="checkbox"]:not(:checked) + label:after,
+  .options [type="checkbox"]:checked + label:after {
+    font-size: 26px !important;
+    margin-left: -10px !important;
+    margin-top: -5px !important;
+  }
+}
 .options [type="checkbox"]:not(:checked) + label:after {
   opacity: 0;
   -webkit-transform: scale(0);
@@ -2201,6 +2359,31 @@ body {
 .options .copy a {
   text-decoration: none;
   color: #4778d9;
+}
+
+.roof-disclaimer {
+  color: #999;
+  font-size: 10px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .roof-disclaimer {
+    font-size: 9px !important;
+  }
+}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 2) {
+  .roof-disclaimer {
+    font-size: 9px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) {
+  .roof-disclaimer {
+    font-size: 9px !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .roof-disclaimer {
+    font-size: 9px !important;
+  }
 }
 
 /**

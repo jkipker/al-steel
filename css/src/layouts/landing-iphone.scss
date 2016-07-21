@@ -1,0 +1,666 @@
+/**
+ * $HOME
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+ * {
+  // -webkit-transition: all 0.2s ease;
+  // -moz-transition:    all 0.2s ease;
+  // -ms-transition:     all 0.2s ease;
+  // -o-transition:      all 0.2s ease;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+  background-color: #191919;
+  background-image: url('../img/al-steel-bg1.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  @include media-query(palm){
+    zoom: 40% !important;
+  }
+
+  @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { zoom: 40% !important; } 
+  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { zoom: 40% !important; }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { zoom: 40% !important; }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { zoom: 40% !important; }
+
+  div, p, h1, h2{
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 50% !important; } 
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 50% !important; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 50% !important; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 50% !important; }
+  }
+
+}
+
+
+
+ .al-steel-container{
+   	width: 75%;
+    margin: auto;
+    text-align: center;
+   	max-width: 100%;
+   	padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 845px;
+    min-width: 845px;
+    margin-top: 30px;
+
+    @include media-query(palm){
+      margin-left: -2%;
+    }
+
+  @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { margin-left: -2%; }
+  
+  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { margin-left: -2%; }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { margin-left: -2%; }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin-left: -2%; }
+
+    .logo-lockup{
+      width: 350px;
+      margin: auto;
+
+      img{width: 100%;}
+    }
+
+    .building-container{
+      width: 761px;      
+      margin: auto;
+      margin-top: 0px;
+
+      .shed-box{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 190px;
+        text-align: center;
+        max-width: 790px;
+        margin-left:-29%;
+      }
+
+      .forest-bg{
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        z-index: 10;
+      }
+
+      .float-item{
+        position: absolute;
+        margin: auto;
+        display: inline-block;
+      }
+
+      .trim{        
+        z-index: 50;
+        margin-left: -18px;
+        width: 60%;
+      }
+      .texture{
+        margin-left: -3px;
+        z-index: 40;
+        width: 58%;
+        top: 2px;
+      }
+      .siding{
+        top: 10px;
+        margin-left: -15px;
+        z-index: 10;
+        max-width: 468px;
+        width: 59%;
+      }
+      .roof{
+        margin-left: 65px;
+        z-index: 10;
+        width: 48%;
+        top: 3px;
+      }
+      .shadow{
+        margin-left: -15px;
+        z-index: 60;
+        width: 60%;
+        top: 9px;
+      }
+
+      //doors & windows
+      .walkin-end-left{
+        z-index: 80;
+        margin-left: -4px;
+        top: 53px;
+      }
+
+      .walkin-end-center{
+        z-index: 80;
+        margin-left: 60px;
+        top: 61px;
+      }
+
+      .walkin-end-right{
+        z-index: 80;
+        margin-left: 135px;
+        top: 69px;
+      }
+
+      .walkin-side-left{
+        z-index: 80;
+        margin-left: 2px;
+        top: 48px;
+      }
+
+      .walkin-side-center{
+        z-index: 80;
+        margin-left: 95px;
+        top: 37px;
+      }
+
+      .walkin-side-right{
+        z-index: 80;
+        margin-left: 167px;
+        top: 26px;
+      }
+
+      .roll-up-end{
+        margin-left: 38px;
+        top: 42px;
+      }
+      .roll-up-side{
+        top: 20px;
+        margin-left: 66px;
+      }
+    }
+
+    .end-wall{
+      top: -213px;
+      left: -220px;
+    }
+
+    .side-wall{
+      top: -198px;
+    }
+
+    .clear-fix{ clear: both; }
+ }
+
+ .options{
+    width: 75%;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+    z-index: 99;
+    margin-top: 40px;
+
+
+    @include media-query(palm){
+      width: 100%; text-align: center;
+    }
+
+  @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 100%; text-align: center; }
+  
+  @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 100%; text-align: center; }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 100%; text-align: center; }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 100%; text-align: center; }
+
+
+    h2{
+      color: #fff;
+      font-size: 20px;
+      top: -45px;
+      text-transform: uppercase;
+      font-size: 22px;
+      letter-spacing: 0.01em;
+
+      @include media-query(palm){
+        font-size: 28px;
+      }
+
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 28px; }
+  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 28px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 28px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 28px; }
+
+    }
+
+    h3{
+      color: white;
+      font-size: 18px;
+      margin-bottom: 8px;
+      margin-top: 0px;
+
+      @include media-query(palm){
+        font-size: 30px;
+      }
+
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 30px; }
+  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 30px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 30px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 30px; }
+    }
+
+    p{ 
+      margin-bottom: 5px; 
+      font-size: 14px;
+
+      @include media-query(palm){
+        margin-bottom: 3px;
+      }
+
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { margin-bottom: 3px; }  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { margin-bottom: 3px; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { margin-bottom: 3px; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin-bottom: 3px; }
+    }
+
+    span{
+      color: #09ad7e;
+      display: block;
+      margin-top: 15px;
+      margin-left: -27px;
+
+      @include media-query(palm){
+        font-size: 30px;
+      }
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 30px; }
+  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 30px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 30px; }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 30px; }
+    }
+
+    .split50, .split30{
+      display: inline-block;
+      width: 56%;
+      border: 1px #999 solid;
+      text-align: center;
+      vertical-align: top;
+      height: 500px;
+
+      @include media-query(palm){
+        width: 75%;
+      }
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 75%; }  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 75%; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 75%; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 75%; }
+
+      .split50{
+        border: none;
+        width: 48%;
+        margin-top: -20px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+
+        @include media-query(palm){
+            margin-top: -34px;
+        }
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { margin-top: -34px; }  
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { margin-top: -34px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { margin-top: -34px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin-top: -34px; }
+      }
+    }
+
+    .split30{
+      width: 42%;
+
+      @include media-query(palm){
+        width: 75%;
+      }
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 75%; }  
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 75%; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 75%; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 75%; }
+    }
+
+    .doors-windows{
+      margin-right: 5px;
+      min-width: 335px;
+
+     @include media-query(palm){
+        margin-bottom: 60px; height: 780px;
+     }
+     @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { margin-bottom: 60px; height: 780px; }  
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { margin-bottom: 60px; height: 780px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { margin-bottom: 60px; height: 780px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin-bottom: 60px; height: 780px; }
+    }
+
+    .color-options{
+      min-width: 455px;
+
+     @include media-query(palm){      
+        height: 1200px;
+      }
+
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { height: 1200px; }  
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { height: 1200px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { height: 1200px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { height: 1200px; }
+
+      img{ width: 100%; }
+
+      h2{
+        margin-bottom: -20px;
+      }
+    }
+
+    .color-tab{
+      background-color: rgba(102, 102, 102, 0.65);
+      display: inline-block;
+      padding: 5px 10px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 3px;
+
+      @include media-query(palm){
+        font-size: 28px;
+      }
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 28px; }  
+        @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 28px; }
+        @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 28px;}
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 28px; }
+    }
+
+    .color-tab:hover{
+      color: #09ad7e;
+    }
+
+    .color-tabs{
+      top: -8px;
+      
+      .selected{
+        color: #09ad7e;
+      }
+    }
+
+    .disclaimer{
+      font-size: 14px;
+    }
+
+//*** choose colors styles ***//
+.color-block{
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  vertical-align: top;
+
+  @include media-query(palm){
+    width: 180px;
+  }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 180px; }  
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 180px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 180px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 180px; }
+
+  .color-choice{
+    border: 1px #999 solid;
+    min-width: 80px;
+    min-height: 55px;
+    cursor: pointer;
+
+    @include media-query(palm){
+      min-height: 65px;
+    }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { min-height: 65px; }  
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { min-height: 65px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { min-height: 65px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { min-height: 65px;}
+  }
+
+  .color-title{
+    color: white;
+    font-size: 14px;
+
+    @include media-query(palm){
+      font-size: 24px;
+    }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 24px; }  
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 24px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 24px; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 24px; }
+  }
+
+  #ash-gray{
+    background-color: #474b44;
+  }
+  #barn-red{
+    background-color: #8c4435;
+  }
+  #black{
+    background-color: #000000;
+  }
+  #burgundy{
+    background-color: #503439;
+  }
+  #burnished-slate{
+    background-color: #353d2e;
+  }
+  #colony-green{
+    background-color: #4f6854;
+  }
+  #charcoal-gray{
+    background-color: #474b44;
+  } 
+  #copper{
+    background-color: #8f662a;
+  }
+  #crimson-red{
+    background-color: #8f101a;
+  }
+  #desert-sand{
+    background-color: #807d63;
+  }
+  #fern-green{
+    background-color: #22382f;
+  }
+  #forest-green{
+    background-color: #1d4430;
+  }
+  #gallery-blue{
+    background-color: #003155;
+  }
+  #gold{
+    background-color: #ae9962;
+  }
+  #hawaiian-blue{
+    background-color: #2f5a6c;
+  }
+  #light-stone{
+    background-color: #afa588;
+  }
+  #saddle-tan{
+    background-color: #9c8564;
+  }
+  #galvalume{
+    background-color: #c3c7c6;
+  }
+  #white{
+    background-color: #ffffff;
+  }
+  #koko{
+    background-color: #46382b;
+  }
+}
+
+    //*** Check Boxes ***//
+
+    [type="checkbox"]:not(:checked),
+    [type="checkbox"]:checked {
+      position: absolute;
+      left: -9999px;
+    }
+    [type="checkbox"]:not(:checked) + label,
+    [type="checkbox"]:checked + label {
+      position: relative;
+      padding-left: 25px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: left;
+
+      @include media-query(palm){
+        position: relative; padding-left: 45px; cursor: pointer; font-size: 38px; text-align: left;
+      }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { position: relative; padding-left: 45px; cursor: pointer; font-size: 38px; text-align: left; }  
+    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { position: relative; padding-left: 45px; cursor: pointer; font-size: 38px; text-align: left; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { position: relative; padding-left: 45px; cursor: pointer; font-size: 38px; text-align: left; }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { position: relative; padding-left: 45px; cursor: pointer; font-size: 38px; text-align: left; }
+
+    }
+
+    /* checkbox aspect */
+    [type="checkbox"]:not(:checked) + label:before,
+    [type="checkbox"]:checked + label:before {
+      content: '';
+      position: absolute;
+      left:0; top: 2px;
+      width: 17px; height: 17px;
+      border: 1px solid #aaa;
+      background: #f8f8f8;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+
+      @include media-query(palm){
+        width: 40px; height: 40px; border: 2px solid #aaa;
+      }
+
+      @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 40px; height: 40px; border: 2px solid #aaa; }  
+      @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 40px; height: 40px; border: 2px solid #aaa; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 40px; height: 40px; border: 2px solid #aaa; }
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 40px; height: 40px; border: 2px solid #aaa; }
+    }
+    /* checked mark aspect */
+    [type="checkbox"]:not(:checked) + label:after,
+    [type="checkbox"]:checked + label:after {
+      content: '✔';
+      position: absolute;
+      top: 3px; left: 4px;
+      font-size: 18px;
+      line-height: 0.8;
+      color: #09ad7e;
+      transition: all .2s;
+
+      @include media-query(palm){
+        font-size: 38px;
+      }
+          @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { font-size: 38px; }  
+          @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { font-size: 38px; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { font-size: 38px; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { font-size: 38px; }
+    }
+    /* checked mark aspect changes */
+    [type="checkbox"]:not(:checked) + label:after {
+      opacity: 0;
+      transform: scale(0);
+    }
+    [type="checkbox"]:checked + label:after {
+      opacity: 1;
+      transform: scale(1);
+    }
+    /* disabled checkbox */
+    [type="checkbox"]:disabled:not(:checked) + label:before,
+    [type="checkbox"]:disabled:checked + label:before {
+      box-shadow: none;
+      border-color: #bbb;
+      background-color: #ddd;
+    }
+    [type="checkbox"]:disabled:checked + label:after {
+      color: #999;
+    }
+    [type="checkbox"]:disabled + label {
+      color: #aaa;
+    }
+    /* accessibility */
+    [type="checkbox"]:checked:focus + label:before,
+    [type="checkbox"]:not(:checked):focus + label:before {
+      border: 1px dotted blue;
+    }
+
+    /* hover style just for information */
+    label:hover:before {
+      border: 1px solid #4778d9!important;
+    }
+
+
+
+
+
+
+    /* Useless styles, just for demo design */
+
+    div{
+        @include media-query(palm){
+          border: thin red solid;
+      }
+          @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { border: thin red solid; }  
+          @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { border: thin red solid; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { border: thin red solid; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { border: thin red solid; }
+    }
+
+    body, #alsteel-body {
+      font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+      color: #777;
+      min-width: 1080px;
+    }
+    h1, h2 {
+      margin-bottom: 5px;
+      font-weight: normal;
+      text-align: center;
+    }
+    h2 {
+      margin: 5px 0 10px;
+      //color: #aaa;
+    }
+    form {
+      width: 80px;
+      margin: 0 auto;
+
+      @include media-query(palm){
+        width: 140px;
+      }
+          @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { width: 140px; }  
+          @media only screen and (min-device-width : 414px) and (max-device-width : 736px) { width: 140px; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 568px) { width: 140px; }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { width: 140px; }
+    }
+    .txtcenter {
+      margin-top: 4em;
+      font-size: .9em;
+      text-align: center;
+      color: #aaa;
+    }
+    .copy {
+     margin-top: 2em; 
+    }
+    .copy a {
+     text-decoration: none;
+     color: #4778d9;
+    }
+ }
+
+
+
+ .roof-disclaimer{
+    color: #999;
+    font-size: 10px;
+  }
+
+
+
+ 

@@ -22,15 +22,6 @@ body{
   @include media-query(palm){
     zoom: 40% !important; 
   }
-
-  div, p, h1, h2, h3, form, label, .options span{
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { font-size: 100.1% !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { font-size: 100.1% !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { font-size: 100.1% !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { font-size: 100.1% !important; }
-    @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ font-size: 100.1% !important; }
-    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { font-size: 100.1% !important; }
-  }
 }
 
 
@@ -201,14 +192,6 @@ body{
        @include media-query(palm){
         font-size: 28px;
       }
-
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { margin-top:-15px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { margin-top:-15px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { margin-top:-15px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { margin-top:-15px !important; }
-    @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){ margin-top:-15px !important; }
-
-      
     }
 
     h3{
@@ -283,11 +266,6 @@ body{
         margin-bottom: 60px;
         height: 780px;
      }
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { height: 1050px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { height: 1050px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { height: 1050px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { height: 1050px !important; }
-
     }
 
     .color-options{
@@ -296,13 +274,6 @@ body{
      @include media-query(palm){      
         height: 1200px;
       }
-
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { height: 1200px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { height: 1200px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { height: 1200px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { height: 1200px !important; }
-
-      
 
       img{ width: 100%; }
 
@@ -370,13 +341,6 @@ body{
     @include media-query(palm){
       font-size: 24px;
     }
-
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { font-size: 14px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { font-size: 14px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { font-size: 14px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  and (-webkit-device-pixel-ratio: 2){ font-size: 14px !important; }
-
-    
   }
 
   #ash-gray{
@@ -498,13 +462,6 @@ body{
       @include media-query(palm){
         font-size: 38px;
       }
-
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { font-size: 26px !important; margin-left:-10px !important; margin-top:-5px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { font-size: 26px !important; margin-left:-10px !important; margin-top:-5px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { font-size: 26px !important; margin-left:-10px !important; margin-top:-5px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { font-size: 26px !important; margin-left:-10px !important; margin-top:-5px !important; }
-
-      
     }
     /* checked mark aspect changes */
     [type="checkbox"]:not(:checked) + label:after {
@@ -588,12 +545,6 @@ body{
  .roof-disclaimer{
     color: #999;
     font-size: 10px;
-
-    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio: 2) { font-size: 9px !important; } 
-    @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 2) { font-size: 9px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (-webkit-device-pixel-ratio: 2) { font-size: 9px !important; }
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-device-pixel-ratio: 2) { font-size: 9px !important; }
-
   }
 
 
